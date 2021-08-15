@@ -1,3 +1,4 @@
+// Login Page and Cofirmation
 const loginButton = document.getElementById('login-btn');
 const userEmail = document.getElementById('user-email');
 const userPassword = document.getElementById('user-password');
@@ -9,4 +10,4 @@ loginButton.addEventListener('click', function () {
         alert('Unvalid Email or Password.');
     }
 
-})
+});
